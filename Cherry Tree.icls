@@ -1,10 +1,9 @@
 <scheme name="Cherry Tree" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="CONSOLE_FONT_NAME" value="Ubuntu Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
-  <option name="CONSOLE_LINE_SPACING" value="1.1" />
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -70,7 +69,6 @@
         <option name="BACKGROUND" value="3a2323" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.FUNCTION_NAME" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="COFFEESCRIPT.GLOBAL_VARIABLE">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -401,6 +399,7 @@
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="eb5959" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
@@ -652,6 +651,13 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="6a6a6a" />
+        <option name="BACKGROUND" value="464646" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="9876aa" />
@@ -700,17 +706,12 @@
         <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER">
       <value>
         <option name="EFFECT_COLOR" value="a9b7c6" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
     <option name="JSP_DIRECTIVE_NAME">
       <value>
         <option name="FOREGROUND" value="cc7832" />
@@ -875,7 +876,6 @@
         <option name="FOREGROUND" value="dc383a" />
       </value>
     </option>
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PHP_VAR_VAR">
       <value>
         <option name="FOREGROUND" value="eb5959" />
@@ -924,7 +924,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="REST.BOLD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="REST.FIXED">
       <value>
         <option name="BACKGROUND" value="a3a08" />
@@ -940,7 +939,6 @@
         <option name="BACKGROUND" value="15463c" />
       </value>
     </option>
-    <option name="REST.ITALIC" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="SASS_COMMENT">
       <value>
         <option name="FOREGROUND" value="bc9455" />
